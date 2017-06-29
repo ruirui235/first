@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd" >
+<mapper namespace="cn.appsys.dao.dictionary.DictionaryMapper">
+  <select id="getAllByTypeCode" resultType="Dictionary">
+  		select * from data_dictionary where typeCode=#{typeCode}
+  </select>
+</mapper>

@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/WEB-INF/jsp/index.jsp,WebRoot/statics/js/moment/moment.min.js,WebRoot/statics/js/jquery.min.js,WebRoot/statics/js/validator.js
+validator.Unchecked=
